@@ -21,7 +21,7 @@ header {
 
 /* shared items */
 
-.bg-color{
+.bg-color {
     background-color: #f2f2fc;
 }
 
@@ -33,7 +33,14 @@ header {
     border-radius: 10px;
     font-size: 16px;
     border: none;
+    cursor: pointer;
+    transition: 0.3s;
 
+}
+
+.btn-primary:hover {
+    background-color: #10c7d1;
+    transform: scale(1.05);
 
 }
 
@@ -49,7 +56,7 @@ header {
     color: #4E47FF;
 }
 
-.text-color{
+.text-color {
     color: #252432;
 }
 
@@ -78,23 +85,23 @@ nav {
     gap: auto;
 }
 
-.action-text{
+.action-text {
     padding: 62.5px;
     height: 100%;
     justify-content: center;
 }
 
-.action-title{
+.action-title {
     font-size: 30px;
     font-weight: bold;
 }
 
-.action-subtitle{
+.action-subtitle {
     font-size: 24px;
     font-weight: 16px;
 }
 
-.action-image img{
+.action-image img {
     border-radius: 48px;
     width: 100%;
     max-width: 450px;
@@ -103,90 +110,128 @@ nav {
 
 /* Productive Users section */
 
-.users-section{
+.users-section {
     margin: 116px 159px 137px 141px;
     justify-content: center;
     align-items: center;
 }
 
-.users-container{
+.users-container {
     background-color: #e6e9ff;
-    
+
     padding: 40px;
     text-align: center;
     border-radius: 24px;
 
 }
 
-.users-container h2{
+.users-container h2 {
     font-size: 38px;
     font-weight: bold;
     margin-bottom: 30px;
 
 }
 
-.users{
+.users {
     display: flex;
     justify-content: space-around;
 }
 
-.user-text h3{
+.user-text h3 {
     font-size: 80px;
     font-weight: bold;
     margin: 0;
     margin-bottom: 4px;
 }
 
-.user-text p{
+.user-text p {
     font-size: 20px;
     font-weight: 16px;
     margin: 0;
-    
+
 }
 
 /* Let’s Get In Touch Section */
 
 .touch-section {
-  display: flex;
-  
-  justify-content: space-around;
-  
-  padding: 160px 100px 120px 200px;
-  gap: 20px;
-  
+    display: flex;
+
+    justify-content: space-around;
+
+    padding: 160px 100px 120px 200px;
+    gap: 20px;
+
 }
 
 .touch-column {
-  flex: 1;
-  min-width: 300px;
+    flex: 1;
+    min-width: 300px;
 }
 
 .touch-title {
-  font-size: 97px;
-  font-weight: bold;
-  color: #000000;
-  
+    font-size: 97px;
+    font-weight: bold;
+    color: #000000;
+
 }
 
 form {
-  display: flex;
-  flex-direction: column;
+    display: flex;
+    flex-direction: column;
 }
 
 label {
-  font-size: 18px;
-  margin-bottom: 6px;
-  color: #000000;
+    font-size: 18px;
+    margin-bottom: 6px;
+    color: #000000;
 }
 
 input[type="email"],
 input[type="text"],
 textarea {
-  padding: 12px 14px;
-  margin-bottom: 20px;
-  border: 1px solid #e9e7e7;
-  border-radius: 6px;
-  font-size: 14px;
-  
-  background-color: #fff;
+    padding: 12px 14px;
+    margin-bottom: 20px;
+    border: 1px solid #e9e7e7;
+    border-radius: 6px;
+    font-size: 14px;
+
+    background-color: #fff;
+}
+
+/* footer styles */
+
+footer {
+    margin: 0;
+    padding: 0;
+}
+
+.footer {
+    padding: 50px 20px;
+
+}
+
+.footer-container {
+    margin: 0 auto;
+}
+
+.footer-logo {
+    font-size: 60px;
+    margin-bottom: 5px;
+}
+
+.footer-links .nav-list {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.footer-link .nav-list a {
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.footer-text p {
+    color: #8987A1;
+    font-size: 16px;
 }
