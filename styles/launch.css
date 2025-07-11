@@ -21,6 +21,10 @@ header {
 
 /* shared items */
 
+.bg-color{
+    background-color: #f2f2fc;
+}
+
 .btn-primary {
     background-color: #4E47FF;
     font-weight: bold;
@@ -140,3 +144,16 @@ nav {
     
 }
 
+/* Let’s Get In Touch Section */
+
+.touch-section{
+    display: flex;
+    justify-content: center;
+    padding: 80px,20px;
+}
+
+.touch-column{
+    display: flex;
+    gap: 40px;
+    width: 100%;
+}
