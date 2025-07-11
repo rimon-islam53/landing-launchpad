@@ -235,3 +235,69 @@ footer {
     color: #8987A1;
     font-size: 16px;
 }
+
+
+/*Users’ Feedback Section*/
+
+.feedback-section{
+    background-color: ;
+    margin: 120 0 0 0;
+    padding: 20px 5px;
+    text-align: center;
+}
+
+.feedback-heading{
+    font-size: 42px;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+.feedback-container{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.feedback-card{
+    background-color: #fffefe;
+    border: 1px solid #eeeeee;
+    border-radius: 14px;
+    
+    padding: 20px;
+    max-width: 280px;
+    text-align: left;
+
+}
+
+.feedback-card h3{
+    font-size: 18px;
+    margin-bottom: 8px;
+}
+
+.feedback-card p{
+    font-size: 14px;
+    margin-bottom: 16px;
+}
+
+.reviewer-info{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.reviewer-img{
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.reviewer-name{
+    font-weight: 600;
+    font-size: 14px;
+
+}
+
+.review-date{
+    font-size: 12px;
+}
