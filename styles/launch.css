@@ -146,14 +146,47 @@ nav {
 
 /* Let’s Get In Touch Section */
 
-.touch-section{
-    display: flex;
-    justify-content: center;
-    padding: 80px,20px;
+.touch-section {
+  display: flex;
+  
+  justify-content: space-around;
+  
+  padding: 160px 100px 120px 200px;
+  gap: 20px;
+  
 }
 
-.touch-column{
-    display: flex;
-    gap: 40px;
-    width: 100%;
+.touch-column {
+  flex: 1;
+  min-width: 300px;
+}
+
+.touch-title {
+  font-size: 97px;
+  font-weight: bold;
+  color: #000000;
+  
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  font-size: 18px;
+  margin-bottom: 6px;
+  color: #000000;
+}
+
+input[type="email"],
+input[type="text"],
+textarea {
+  padding: 12px 14px;
+  margin-bottom: 20px;
+  border: 1px solid #e9e7e7;
+  border-radius: 6px;
+  font-size: 14px;
+  
+  background-color: #fff;
 }
