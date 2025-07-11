@@ -240,7 +240,6 @@ footer {
 /*Users’ Feedback Section*/
 
 .feedback-section{
-    background-color: ;
     margin: 120 0 0 0;
     padding: 20px 5px;
     text-align: center;
@@ -284,10 +283,14 @@ footer {
     align-items: center;
     gap: 12px;
 }
+.reviewer-info img{
+    border-radius: 50%;
+}
 
 .reviewer-img{
     width: 36px;
     height: 36px;
+    border: solid;
     border-radius: 50%;
     object-fit: cover;
 }
